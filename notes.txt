@@ -34,5 +34,21 @@ Block-1
         10. git config --global user.email ----- to see which email is synced 
         11. create a new file .gitignore in browser 
     
+    b. setup.py
+        # we use this if we want to build our application as a package 
+        1. from setuptools import setup, find_packages 
+
+            setup(
+            name='mlproject',
+            version='0.0.10',
+            author='arjun',
+            author_email='arjuncm568@gmail.com',
+            packages=find_packages(),
+            install_requires=[]
+
+
+
+            ) 
+        2. create a src folder and create a __init__.py inside it "so it will think src is a package "
 
 
