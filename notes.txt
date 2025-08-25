@@ -1,0 +1,37 @@
+#end to end ml project 
+#set up project with the git hub 
+#1. data ingestion
+#2. data transformation
+#3. model trainer 
+#4. model evalutaion 
+#5. model deployment 
+
+'''CI / CD pipelines - github Actions 
+Deployment - AWS'''
+
+
+Block-1 
+1. set up the github repo
+    a. new environment 
+    b. setup.py
+    c. requirements.txt    
+
+
+=== a. 1.python3 -m venv venv
+        2. venv/bin/activate
+        3. create README.md manually 
+        4. git add README.md
+        5. git commit -m "first commit"
+        6. git branch -M main
+        7. git remote add origin https://github.com/arjuncm006/mlproject.git
+        8. git remote -v -----to check which repo it is sysnced with 
+        9. git push -u origin main 
+        
+        # if you are doing it for first time setup git global 
+        #search git global congfig  and in git configuration
+        #git config --global user.name "Your Full Name"
+        #git config --global user.email "your.email@example.com"
+        10. git config --global user.email ----- to see which email is synced 
+    
+
+
