@@ -1,4 +1,4 @@
-#end to end ml project 
+#end to end ml project                  -setup.py
 #set up project with the git hub 
 #1. data ingestion
 #2. data transformation
@@ -32,6 +32,7 @@ Block-1
         #git config --global user.name "Your Full Name"
         #git config --global user.email "your.email@example.com"
         10. git config --global user.email ----- to see which email is synced 
+        11. create a new file .gitignore in browser 
     
 
 
